@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Kanavu Illam</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<!--[if IE 6]>
+			<link rel="stylesheet" href="css/ie6.css" type="text/css" />
+		<![endif]-->
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="css/ie7.css" type="text/css" />
+		<![endif]-->
+	<style>
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color:#F397B5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 25%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+    </head>
+	<body>
+		<div class="header">
+			<div>
+				<a href="index.html" id="logo"><img src="images/PicsArt_07-24-01.46.02.jpg" alt="logo"  height="560" width="620"/></a>
+				<div class="navigation">
+					<ul class="first">
+						<li class="first"><a href="jewelry.html">ON SALE</a></li>
+						<li><a href="accessories.html">BEST SELLERS</a></li>
+						<li><a href="blog.html">THE BLOG</a></li>
+					</ul>
+					<ul>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="shoes.html">My Collection</a></li>
+						<li><a href="#">Login</a></li>
+					</ul>
+				</div>
+				<form action="" class="search">
+					<input type="text" value="search" onblur="this.value=!this.value?'search':this.value;" onfocus="this.select()" onclick="this.value='';"/>
+					<input type="submit" id="submit" value=""/>
+				</form>
+			</div>
+			<div id="navigation">
+				<ul>
+					<li class="selected"><a href="index.html">Home</a></li>
+					<li> <a href="new_arrival.html">New Arrival</a></li>
+					<li><a href="apparel.html">Apparel</a></li>
+					<li><a href="beauty_care.html">Beauty Care</a></li>
+					<li><a href="shoes.html">Shoes</a></li>
+					<li><a href="accessories.html">Accessories</a></li>
+					<li><a href="jewelry.html">Jewelry</a></li>
+				</ul>
+			</div>
+		</div> 
+		<div class="body">
+			<div class="featured">
+				<a><img src="images/advertisement.jpg" alt=""/></a>
+				<div class="login">
+					<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+		
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/apparel8.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+				</div>
+			</div>
+			<div class="article">
+				<div class="first">
+					<h3>Testimonials</h3>
+					<p>
+"Kanavu Illam was superfast. I ordered on 26th Dec and today (28th Dec) I got the product. I also got a call yesterday by the Gharpay executive before coming for the pick up, as committed by Team Kanavu Illam. I Ordered Pearl Necklace. The design and specially the color of the pearlwhich I was specific to be the same as mentioned in the website was perfectly the same. Moreover, It looks amazingly beautiful with my Royal Blue and Pink Saree. Very happy with the service. Keep it up Kanavu Illam ! All the Best ! "
+                        <br>-- Suranjeeta Das, New Delhi
+<br>
+<br>
+"I'd like to take this opportunity to let you know that I am very happy with your customer service. I had an issue with a damaged piece and it was dealt with efficiently. I received the cooling glass and others in my order and I am extremely happy with your professionalism. All items were very well made and worth the money. Keep up the good work."
+                        <br>-- Anjana Das, Tennessee, United States</p>
+				</div>
+				<div>
+					<h3>Get KANAVU ILLAM App Now!</h3>
+					<p><ul>
+                    <li>Get realtime updates on your order</li>
+                    <li>Follow your favourite designers</li>
+                    <li>Avail app-only offers</li>
+                    </ul></div>
+				<div class="connect">
+					<h2>Follow us</h2>
+					<a href="http://facebook.com" id="facebook">Facebook</a>
+					<a href="http://twitter.com" id="twitter">Twitter</a>
+					<a href="#" id="comments">Comments</a>
+					<a href="http://www.flickr.com" id="flickr">Flickr</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>&#169; 2011 Kanavu Illam. All Rights Reserved.</p>
+		</div>
+          <script type="text/javascript">
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>  
+	</body>
+</html>
